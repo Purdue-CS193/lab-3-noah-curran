@@ -46,9 +46,9 @@ public class UtilTester {
 
     @Test
     public void testComplexNegativePower() {
-        assertEquals(14348907, MathUtils.raiseToPower(3, -15), delta);
-        assertEquals(1419857, MathUtils.raiseToPower(17, -5), delta);
-        assertEquals(62748517, MathUtils.raiseToPower(13, -7), delta);
+        assertEquals(6.96917194e-8, MathUtils.raiseToPower(3, -15), delta);
+        assertEquals(7.04296278e-7, MathUtils.raiseToPower(17, -5), delta);
+        assertEquals(1.59366316e-8, MathUtils.raiseToPower(13, -7), delta);
     }
 
     @Test
